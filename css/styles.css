@@ -7,6 +7,8 @@
   --accent-color-hover: #188ce8;
   --text-color-darck: #000000;
   --text-color-light: #ffffff;
+  --section-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
 }
 
 body {
@@ -146,6 +148,10 @@ body {
 
 /* ================= OUR TEAM ================= */
 
+.team {
+  background: var(--section-background-color);
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -166,7 +172,7 @@ body {
 /* ================= FOOTER ================= */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 
 .logo-second-part-footer {
@@ -222,6 +228,8 @@ body {
   background-color: var(--accent-color);
 }
 
+
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -239,4 +247,12 @@ body {
   color: var(--secondary-text-color);
 }
 
+.projects-list-link:hover,
+.projects-list-link:focus,
+.projects-title:hover,
+.projects-title:focus,
+.projects-type:hover,
+.projects-type:focus {
+  color: var(--accent-color);
+}
 /* ================= PORTFOLIO PAGE ================= */
