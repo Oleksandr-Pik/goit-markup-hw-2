@@ -247,12 +247,5 @@ body {
   color: var(--secondary-text-color);
 }
 
-.projects-list-link:hover,
-.projects-list-link:focus,
-.projects-title:hover,
-.projects-title:focus,
-.projects-type:hover,
-.projects-type:focus {
-  color: var(--accent-color);
-}
+
 /* ================= PORTFOLIO PAGE ================= */
